@@ -1,0 +1,141 @@
+/* basic */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+         /* взяли шрифты с google fonts и прописали правило font-family: 'Inter', sans-serif;*/
+    font-family: 'Inter', sans-serif;
+}
+
+/* header */
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    min-width: 64%;
+    margin-left: 250px;
+    /* это правила для центровочного контейнера */
+}
+
+
+
+.header-wrapper{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex; 
+    margin: 0 auto;
+}
+
+.header-contacts{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.header-contacts img {
+    border-radius: 150px;
+}
+
+.header_social{
+    display: flex;
+    list-style-type: none;
+}
+
+.social_icon_vk, .social_icon_telegram, .social_icon_whatsUp{
+    width: 32px;
+    height: 23px;  
+}
+
+.header-info h1{
+
+    margin-left: 140px;
+}
+.info-box{
+    margin-top: 50px;
+    display: flex; 
+    background-color: rgb(243, 241, 241);
+    border-radius: 10px;
+    margin-left: 40px;
+}
+
+
+.info-list > li{
+    padding: 8px;
+    margin-left: 50px;
+    padding-right: 150px;
+    list-style-type: none;
+    color: #9999A3;
+}
+
+.left > li {
+    border-bottom: 1px solid rgb(216, 213, 213);
+    width: 200%;
+}
+
+.right > li{
+   color: black;
+}
+
+/* main */
+
+.exp{
+    color:rgb(216, 213, 213);
+    margin-left: 324px; 
+}
+
+.main-wrapper{
+    padding-top: 30px;
+    padding-left: 70px;
+}
+
+.main-wrapper p {
+    margin: 10px;
+}
+
+.main-box{
+    padding-left: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.main-list p {
+    width: 146%;
+}
+
+.main-content {
+    min-width: 64%;
+    margin-left: 250px;
+}
+
+.main-content span {
+    min-width: 64%;
+    margin-left: 250px;
+    color: #020202;
+}
+
+.info {
+    width: 70%;
+}
+
+
+
+.main-list:nth-child(ln) {
+    color: red;
+    color: wheat;
+}
+
+.text {
+    color:rgb(216, 213, 213);
+}
+
+.container span {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(243, 243, 243);
+}
+
+
+
